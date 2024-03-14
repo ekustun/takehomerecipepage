@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Search Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Recipe Search Page</h1>
+    </header>
+
+    <main>
+        <div class="search-bar">
+            <!-- Add your search bar code here -->
+            <form id="searchForm">
+                <input type="text" name="search" id="recipeInput" placeholder="Search for Recipe Name...">
+                <select name="difficulty" id="difficultyLevel">
+                    <option>Difficulty</option>
+                    <option>Easy</option>
+                    <option>Medium</option>
+                </select>
+                <select name="total-time" id="totalTime">
+                    <option>Total Time to Make</option>
+                    <option>15 minutes or less</option>
+                    <option>15-30 minutes</option>
+                    <option>30 minutes or more</option>
+                </select>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="results" id="recipeResults">
+            <!-- Add your search results code here -->
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
