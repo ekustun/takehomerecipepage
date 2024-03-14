@@ -3,7 +3,7 @@
 ## DEPLOYED
 
 # Website Link
-https://ekustun.github.io/TakeHomeRecipeProject/
+https://ekustun.github.io/takehomerecipepage/
 
 ## RECIPE SEARCH
 
